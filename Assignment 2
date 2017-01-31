@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Assignment 2</title>
+    <stlye type="text/css">
+    .para1{
+    background-color:maroon;
+    }
+   h2{
+   font
+  </head>
+  <body>
+    <h2>Nick Schaecher</h2>
+    <h3>123 Mr.Fisch Way<br>Fishville, Fl 80000<br>123.456.7890</h3>
+    <p class="para1">-------------------------------------------------------------------------------</p>
+    <h4>Experience</h4>
+    <ul>
+      <li>Aspen Medical Supply- Cleaning and delivering medical equipment 2014-2016</li>
+      <li>Serving St.Mary's Catholic Church by packing dounuts for the homeless. 2015-2016</li>
+      <li>Neighborhood Yarkwork, most often mowing lawns.</li>
+    </ul>
+    <p class="para1">-------------------------------------------------------------------------------</p>
+    <h4>Education</h4>
+    <ul><li>Arapahoe Highschool</li>
+      <li>Ap Calculus AB and BC</li>
+      <li>Ap Chemistry</li>
+      <li>Ap Government</li>
+    </ul>
+    <p class="para1">--------------------------------------------------------------------------------</p>
+    <h4>Additional Skills</h4>
+    <ul>
+      <li>html programming</li>
+      <li>Broken spanish speaker</li>
+      <li>Guitar Player</li>
+    </ul>
+  </body>
+</html>
