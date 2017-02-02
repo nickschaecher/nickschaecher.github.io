@@ -1,0 +1,6 @@
+ .red{color:red;text-align:center;border:5px solid blue;}
+      #black{background-color:black;color:white;text-align:left;border:3px solid red;border-radius:25px;}
+      .font{font-family:"Impact";color:#ffcc00;}
+      a:hover{color:orange;}
+      a:visited{color:green;}
+      a:active{color:blue;}
