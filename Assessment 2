@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>Assessment 2</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <p class="red">Use one <a href="http://www.foxnews.com/" target="_blank">class</a> or id to make its associated paragraph: red, center-aligned text with a rectangular blue border</p>
+    <p id="black">Use a <a href="http://www.pandora.com/" target="_blank">different</a> class or id to make its associated paragraph: black background with left-aligned white text and a rounded-corners red border
+</p>
+<p class="font">Use the <a href="http://my.xfinity.com/?cid=cust" target="_blank">third</a> class or id to make its associated paragraph: have a font of Impact, Charcoal, sans-serif and a text color of #ffcc00
+</p>
+  </body>
+</html>
