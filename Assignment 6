@@ -1,6 +1,17 @@
 <!doctype html>
 <html>
   <head>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   <script> 
+    <script>
+    $(document).ready(function(){
+    $("button").click(function(){
+        var div = $("div");  
+        div.animate({left: '100px'}, "slow");
+        div.animate({fontSize: '3em'}, "slow");
+       });
+     });
+    </script>
     <title>Assignment 2</title>
     <style type="text/css">
     .para1{
@@ -18,17 +29,6 @@
      font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
    }
    </style>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-   <script> 
-    <script>
-    $(document).ready(function(){
-    $("button").click(function(){
-        var div = $("div");  
-        div.animate({left: '100px'}, "slow");
-        div.animate({fontSize: '3em'}, "slow");
-       });
-     });
-    </script>
   </head>
     <body>
     <div style="background:#A3E4D7;height:100px;width:200px;position:absolute;">Nick Schaecher</div>
