@@ -12,7 +12,7 @@
      });
     </script>
     <title>Assignment 2</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="HW6style.css">
   </head>
     <body>
     <div style="background:#A3E4D7;height:100px;width:200px;position:absolute;">Nick Schaecher</div>
