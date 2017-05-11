@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <style>
+      p1 {
+        float: right;
+        font-size: 12px;
+      }
+      div.tab{
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+      }
+      div.tab button {
+         background-color: inherit;
+         float: left;
+         border: none;
+         outline: none;
+         cursor: pointer;
+         padding: 14px 16px;
+         transition: 0.3s;
+      }
+      div.tab button:hover {
+         background-color: #ddd;
+      }
+      div.tab button.active {
+         background-color: #ccc;
+      }
+      .tabcontent {
+         display: none;
+         padding: 6px 12px;
+         border: 1px solid #ccc;
+         border-top: none;
+      }
+    </style>
+    </head>
+  <body>
+    <p1 id="demo"></p1>
+    <br>
+    <div class="tab">
+      <button class="tablinks" onclick="openMusic(event, 'Rock')">Rock</button>
+      <button class="tablinks" onclick="openMusic(event, 'Bluegrass')">Bluegrass</button>
+      <button class="tablinks" onclick="openMusic(event, 'Rap')">Rap</button>
+      </div>
+      <div id="Rock" class="tablecontent">
+      <h3>Top Rock Songs</h3>
+      <p>Enter list of top rock song sales</p>
+      </div>
+      <div id="Bluegrass" class="tablecontent">
+      <h3>Top Bluegrass Songs</h3>
+      <p>Enter list of top bluegrass songs</p>
+      </div>
+      <div id="Rap" class="tablecontent">
+      <h3> Top Rap Songs</h3>
+      <p>Enter list of top rap songs</p>
+      </div>
+    <script>
+      document.getElementById("demo").innerHTML = Date();
+      function openMusic(evt, musicName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+       tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(musicName).style.display = "block";
+      evt.currentTarget.className += " active";
+   }
+
+    </script>
+  </body>
+</html>
